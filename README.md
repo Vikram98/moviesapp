@@ -3,9 +3,9 @@
 
 # Search Route
 
-When an authenticated user opens the Search Route
+. When an authenticated user opens the Search Route
 
-When a value is provided in the search input and the button with the search icon is clicked
+    .When a value is provided in the search input and the button with the search icon is clicked
 
 Make an HTTP GET request to the Search Movies API URL with jwt_token in the Cookies and query parameter search with value as the text provided in the search input
 Loader should be displayed while fetching the data
